@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,12 +27,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $emailErr = "Email is required";
   } else {
     $email = test_input($_POST["email"]);
+	$_SESSION["email"] = $email;
+	
   }
   
   if (empty($_POST["password"])) {
     $passwordErr = "Password is required";
   } else {
     $password = test_input($_POST["password"]);
+	$_SESSION["password"] = $password;
   }
 }
 
