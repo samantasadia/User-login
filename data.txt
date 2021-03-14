@@ -1,0 +1,10 @@
+samantasadia1971@gmail.com
+123456
+---Basic Information--- 
+First Name: samanta
+Last Name: sadia
+Gender: female
+---User Account Info--- 
+Username: s.sadia
+Password: 123456
+Recovery email: samanta@gmail.com
